@@ -1,0 +1,49 @@
+body {
+    background-color: #f4f5f6;
+    color: #333;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    height: 95px;
+    background: rgb(247, 34, 16);
+}
+
+.main-head .weather-box {
+    height: 100%;
+    padding: 0 0 20px 30px;
+}
+
+.main-head .weather-box a {
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.main-head .weather-box a:hover {
+    text-decoration: none;
+}
+
+.main-head .weather-box a .icon-weather {
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: 7px;
+}
+
+.main-head .weather-box a .icon-arrow {
+    height: 12px;
+    width: 12px;
+}
+
+.main-head .weather-box .date {
+    font-size: 16px;
+}
+
+@media only screen and (max-width:992px) {
+    header {
+        height: 50px;
+    }
+}
