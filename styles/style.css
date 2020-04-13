@@ -1,4 +1,4 @@
-    /* body {
+/* body {
     background-color: #f4f5f6;
     color: #333;
     font-size: 13px;
@@ -53,87 +53,142 @@ header {
         height: 50px;
     }
 } */
-    
-     :root {
-        --light-red: #f72210;
-        --light-gray: #a0a0a0;
-        --light-blue: #3581f4;
-        --weak-gray: #bababa;
+
+ :root {
+    --light-red: #f72210;
+    --light-gray: #a0a0a0;
+    --light-blue: #3581f4;
+    --weak-gray: #bababa;
+}
+
+body {
+    background-color: rgb(244, 245, 247);
+    color: #333;
+    font: 13px/18px Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+body p {
+    color: black;
+}
+
+body a:hover {
+    text-decoration: none;
+}
+
+.header-top {
+    height: 50px;
+    background: var(--light-red);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.header-top .row .logo-small a svg {
+    height: 20px;
+    width: 132px;
+    fill: white;
+}
+
+.header-top .row .weather-location a .icon-weather {
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: 7px;
+}
+
+.header-top .row .header-right .btn-sign-in,
+.header-top .row .header-right .btn-subscribe {
+    position: relative;
+    font: bold 14px/14px "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 6px 3px;
+    border-radius: 0;
+}
+
+.header-top .row .icon-menu a i {
+    font-size: 24px;
+    color: #fb9a94;
+    position: fixed;
+    right: 15px;
+    top: 10px;
+}
+
+.main-section .row .item .item-tag a {
+    display: block;
+    background-color: rgb(232, 239, 250);
+    color: var(--light-red);
+    font: 17px/16px "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    padding: 8px 15px 9px;
+    position: absolute;
+    bottom: 5px
+}
+
+.opinion .list-container .list-opinion .item {
+    padding: 12px 0 8px 0;
+    font-family: "Roboto Condensd", sans-serif;
+}
+
+.debate .image-1 {
+    border-top: 4px solid #f92859;
+}
+
+.debate .image-1 {
+    border-top: 4px solid #1c87fb;
+}
+
+.debate .author-name {
+    position: relative;
+    font-size: 14px;
+    line-height: 21px;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 4px;
+}
+
+.debate .author-name ::before {
+    content: "";
+    display: block;
+    background-color: #d9d9d9;
+    height: 1px;
+    position: absolute;
+    top: 12px;
+    left: 0;
+    right: 0;
+}
+
+.debate .author-name ::after {
+    content: "";
+    display: block;
+    background-color: #d9d9d9;
+    height: 1px;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+}
+
+.debate .author-name a .author-image {
+    height: 63px;
+    width: 63px;
+}
+
+.debate .vs-sphere {
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    color: #d6d6d6;
+    border-radius: 50%;
+    font: bold 14px/40px "Roboto Condensed", sans-serif;
+    text-align: center;
+    margin: 14px auto 18px;
+}
+
+@media only screen and (min-width:401px) {
+    .header-top .row .weather-location {
+        display: inline-block !important;
     }
-    
-    body {
-        background-color: rgb(244, 245, 247);
-        color: #333;
-        font: 13px/18px Arial, Helvetica, sans-serif;
-        overflow-x: hidden;
-    }
-    
-    body p {
-        color: black;
-    }
-    
-    body a:hover {
-        text-decoration: none;
-    }
-    
-    .header-top {
-        height: 50px;
-        background: var(--light-red);
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-    }
-    
-    .header-top .row .logo-small a svg {
-        height: 20px;
-        width: 132px;
-        fill: white;
-    }
-    
-    .header-top .row .weather-location a .icon-weather {
-        height: 25px;
-        width: 25px;
-        position: relative;
-        top: 7px;
-    }
-    
-    .header-top .row .header-right .btn-sign-in,
-    .header-top .row .header-right .btn-subscribe {
-        position: relative;
-        font: bold 14px/14px "Roboto Condensed", sans-serif;
-        text-transform: uppercase;
-        display: inline-block;
-        padding: 6px 3px;
-        border-radius: 0;
-    }
-    
-    .header-top .row .icon-menu a i {
-        font-size: 24px;
-        color: #fb9a94;
-        position: fixed;
-        right: 15px;
-        top: 10px;
-    }
-    
-    .main-section .row .item .item-tag a {
-        display: block;
-        background-color: rgb(232, 239, 250);
-        color: var(--light-red);
-        font: 17px/16px "Roboto Condensed", sans-serif;
-        text-transform: uppercase;
-        padding: 8px 15px 9px;
-        position: absolute;
-        bottom: 5px
-    }
-    
-    .opinion .list-container .list-opinion .item {
-        padding: 12px 0 8px 0;
-        font-family: "Roboto Condensd", sans-serif;
-    }
-    
-    @media only screen and (min-width:401px) {
-        .header-top .row .weather-location {
-            display: inline-block !important;
-        }
-    }
+}
