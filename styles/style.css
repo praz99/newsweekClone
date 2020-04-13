@@ -136,7 +136,7 @@ body a:hover {
     border-top: 4px solid #f92859;
 }
 
-.debate .image-1 {
+.debate .image-2 {
     border-top: 4px solid #1c87fb;
 }
 
@@ -201,6 +201,26 @@ body a:hover {
     padding: 8px 15px 9px;
     position: absolute;
     bottom: 5px;
+}
+
+.pandemic-heros .card .image a img {
+    width: 100%;
+}
+
+.pandemic-heros .card .image .item-tag a {
+    display: block;
+    background-color: #c2d4d7;
+    color: #272727;
+    font: 300 13px/20px "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    padding: 1px 6px 1px;
+    position: absolute;
+    bottom: 5px;
+    text-transform: capitalize;
+}
+
+.pandemic-heros .card .image .item-tag a:hover {
+    background-color: #272727;
+    color: #c2d4d7;
 }
 
 @media only screen and (min-width:401px) {
