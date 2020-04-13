@@ -187,6 +187,22 @@ body a:hover {
     margin: 14px auto 18px;
 }
 
+.sponsored .card .image img {
+    height: auto;
+    width: 100%;
+}
+
+.sponsored .card .image .item-tag p {
+    display: block;
+    background-color: rgb(232, 239, 250);
+    color: #3581f4;
+    font: 17px/16px "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    padding: 8px 15px 9px;
+    position: absolute;
+    bottom: 5px;
+}
+
 @media only screen and (min-width:401px) {
     .header-top .row .weather-location {
         display: inline-block !important;
