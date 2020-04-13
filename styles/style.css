@@ -127,7 +127,10 @@ header {
         bottom: 5px
     }
     
-    .opinion .list-container .list-opinion .item-1 .link-1 {}
+    .opinion .list-container .list-opinion .item {
+        padding: 12px 0 8px 0;
+        font-family: "Roboto Condensd", sans-serif;
+    }
     
     @media only screen and (min-width:401px) {
         .header-top .row .weather-location {
