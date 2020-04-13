@@ -1,4 +1,4 @@
-body {
+    /* body {
     background-color: #f4f5f6;
     color: #333;
     font-size: 13px;
@@ -12,38 +12,125 @@ header {
     background: rgb(247, 34, 16);
 }
 
-.main-head .weather-box {
+.header-main .header-left {
     height: 100%;
     padding: 0 0 20px 30px;
 }
 
-.main-head .weather-box a {
+.header-main .header-left a {
     font-size: 14px;
     padding-top: 10px;
 }
 
-.main-head .weather-box a:hover {
+.header-main .header-left a:hover {
     text-decoration: none;
 }
 
-.main-head .weather-box a .icon-weather {
+.header-main .header-left a .icon-weather {
     height: 25px;
     width: 25px;
     position: relative;
     top: 7px;
 }
 
-.main-head .weather-box a .icon-arrow {
+.header-main .header-left a .icon-arrow {
     height: 12px;
     width: 12px;
 }
 
-.main-head .weather-box .date {
+.header-main .header-left .date {
     font-size: 16px;
+}
+
+.header-center a {
+    width: 396px;
+    height: 60px;
+    fill: white;
 }
 
 @media only screen and (max-width:992px) {
     header {
         height: 50px;
     }
-}
+} */
+    
+     :root {
+        --light-red: #f72210;
+        --light-gray: #a0a0a0;
+        --light-blue: #3581f4;
+        --weak-gray: #bababa;
+    }
+    
+    body {
+        background-color: rgb(244, 245, 247);
+        color: #333;
+        font: 13px/18px Arial, Helvetica, sans-serif;
+        overflow-x: hidden;
+    }
+    
+    body p {
+        color: black;
+    }
+    
+    body a:hover {
+        text-decoration: none;
+    }
+    
+    .header-top {
+        height: 50px;
+        background: var(--light-red);
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+    
+    .header-top .row .logo-small a svg {
+        height: 20px;
+        width: 132px;
+        fill: white;
+    }
+    
+    .header-top .row .weather-location a .icon-weather {
+        height: 25px;
+        width: 25px;
+        position: relative;
+        top: 7px;
+    }
+    
+    .header-top .row .header-right .btn-sign-in,
+    .header-top .row .header-right .btn-subscribe {
+        position: relative;
+        font: bold 14px/14px "Roboto Condensed", sans-serif;
+        text-transform: uppercase;
+        display: inline-block;
+        padding: 6px 3px;
+        border-radius: 0;
+    }
+    
+    .header-top .row .icon-menu a i {
+        font-size: 24px;
+        color: #fb9a94;
+        position: fixed;
+        right: 15px;
+        top: 10px;
+    }
+    
+    .main-section .row .item .item-tag a {
+        display: block;
+        background-color: rgb(232, 239, 250);
+        color: var(--light-red);
+        font: 17px/16px "Roboto Condensed", sans-serif;
+        text-transform: uppercase;
+        padding: 8px 15px 9px;
+        position: absolute;
+        bottom: 5px
+    }
+    
+    .opinion .list-container .list-opinion .item-1 .link-1 {}
+    
+    @media only screen and (min-width:401px) {
+        .header-top .row .weather-location {
+            display: inline-block !important;
+        }
+    }
