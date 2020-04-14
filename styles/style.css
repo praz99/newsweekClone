@@ -133,7 +133,9 @@ header {
                 .top-story .card .image img,
                 .featured-stories .card .image img,
                 .sponsored .card .image img,
-                .editors-pick .card .image img {
+                .editors-pick .card .image img,
+                .pandemic-heros .card .image a img,
+                .section-us .card-1 .image a img {
                     height: auto;
                     width: 100%;
                 }
@@ -212,10 +214,6 @@ header {
                     padding: 8px 15px 9px;
                     position: absolute;
                     bottom: 5px;
-                }
-                
-                .pandemic-heros .card .image a img {
-                    width: 100%;
                 }
                 
                 .pandemic-heros .card .image .item-tag a {
@@ -339,6 +337,21 @@ header {
                 
                 .in-the-magazine .card-8 .card-body-8 a {
                     font: 16px/16px "Roboto Condensed", sans-serif;
+                    color: black;
+                }
+                
+                .section-us .section-title {
+                    font: 22px/22px "Roboto Condensed", sans-serif;
+                    color: var(--light-red);
+                }
+                
+                .section-us .card-1 .card-body a {
+                    font: 18px/18px "Roboto Condensed", sans-serif;
+                    color: black;
+                }
+                
+                .section-us .card-3 ul li .info a {
+                    font: bold 17px/21px "Roboto Condensed", sans-serif;
                     color: black;
                 }
                 
