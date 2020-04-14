@@ -135,7 +135,10 @@ header {
                 .sponsored .card .image img,
                 .editors-pick .card .image img,
                 .pandemic-heros .card .image a img,
-                .section-us .card-1 .image a img {
+                .section-us .card-1 .image a img,
+                .section-world .card-1 .image a img,
+                .section-business .card-1 .image a img,
+                .section-science-tech .card-1 .image a .img {
                     height: auto;
                     width: 100%;
                 }
@@ -198,11 +201,6 @@ header {
                     font: bold 14px/40px "Roboto Condensed", sans-serif;
                     text-align: center;
                     margin: 14px auto 18px;
-                }
-                
-                .sponsored .card .image img {
-                    height: auto;
-                    width: 100%;
                 }
                 
                 .sponsored .card .image .item-tag p {
@@ -340,17 +338,26 @@ header {
                     color: black;
                 }
                 
-                .section-us .section-title {
+                .section-us .section-title,
+                .section-world .section-title,
+                .section-business .section-title,
+                .section-science-tech .section-title {
                     font: 22px/22px "Roboto Condensed", sans-serif;
                     color: var(--light-red);
                 }
                 
-                .section-us .card-1 .card-body a {
+                .section-us .card-1 .card-body a,
+                .section-world .card-1 .card-body a,
+                .section-business .card-1 .card-body a,
+                .section-science-tech .card-1 .card-body a {
                     font: 18px/18px "Roboto Condensed", sans-serif;
                     color: black;
                 }
                 
-                .section-us .card-3 ul li .info a {
+                .section-us .card-3 ul li .info a,
+                .section-world .card-3 ul li .info a,
+                .section-business .card-3 ul li .info a,
+                .section-science-tech .card-3 ul li .info a {
                     font: bold 17px/21px "Roboto Condensed", sans-serif;
                     color: black;
                 }
