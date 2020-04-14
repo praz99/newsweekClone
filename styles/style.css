@@ -223,8 +223,7 @@ body a:hover {
     color: #c2d4d7;
 }
 
-
-/* .sponsored-bottom .sign-up-box {
+.sponsored-bottom .sign-up-box {
     max-width: 300px;
     margin: 0 auto 30px;
     border: 1px solid #e5e5e5;
@@ -269,7 +268,7 @@ body a:hover {
 .sponsored-bottom .sign-up-box .preferences {
     color: #333;
     font: bold 15px/15px "Roboto Condensed", sans-serif;
-} */
+}
 
 @media only screen and (min-width:401px) {
     .header-top .row .weather-location {
