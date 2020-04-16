@@ -473,8 +473,19 @@ header {
                 .section-subscribe .subscribe .card {
                     padding: 30px;
                 }
+                .section-subscribe .newsletter .card .pad {
+                    padding: 30px;
+                }
                 .section-subscribe .newsletter .card .images {
                     max-width: 191px;
-                    width: 48%;
+                }
+                .blank-space {
+                    height: 1px;
+                }
+                .page-footer .footer-links .menu li {
+                    border-right: 1px solid #d9d9d9;
+                }
+                .page-footer .footer-links .menu li:last-child {
+                    border-right: 0;
                 }
             }
