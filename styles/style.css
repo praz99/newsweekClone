@@ -18,10 +18,10 @@ body a:hover {
     text-decoration-color: var(--light-red);
 }
 
-.main {
+/* .main {
     position: relative;
     top: 55px;
-}
+} */
 
 .top-story .card .item-tag a,
 .featured-stories .card .item-tag a,
@@ -442,14 +442,24 @@ body a:hover {
     font-size: 14px;
     line-height: 15px;
 }
+.page-footer .footer-links .footer-links-menu label{
+color:#666;
+}
+.page-footer .footer-links .footer-links-menu .menu .links a{
+    color: #666;    
+}
+.page-footer .footer-links .footer-links-menu .menu .links a:hover{
+    text-decoration: none;
+    color: black;
+}
 
-.page-header {
+/* .page-header {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 10;
-}
+} */
 
 .page-header .header-top {
     background: var(--light-red);
@@ -569,6 +579,21 @@ body a:hover {
     background-size: 20px 20px;
 }
 
+@media only screen and (max-width: 991px){
+    .page-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+    }
+    .main {
+        position: relative;
+        top: 55px;
+    }
+}
+    
+
 @media only screen and (min-width: 992px) {
     .page-header .header-top {
         background-color: var(--light-red);
@@ -604,9 +629,9 @@ body a:hover {
         height: 60px;
         width: 396px;
     }
-    .main {
+    /* .main {
         top: 170px;
-    }
+    } */
     .section-subscribe .newsletter .card .images {
         width: 70% !important;
         height: 300px !important;
