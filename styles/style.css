@@ -32,6 +32,39 @@ body a :hover {
   bottom: 5px;
 }
 
+.opinion a :hover {
+  text-decoration: none;
+}
+
+.pandemic-heros a :hover {
+  text-decoration: none;
+}
+
+.latest-news a :hover {
+  text-decoration: none;
+}
+
+.section-us .section-title :hover,
+.section-world .section-title :hover,
+.section-business .section-title :hover,
+.section-science-tech .section-title :hover,
+.section-culture .section-title :hover,
+.section-sports .section-title :hover {
+  text-decoration: none;
+}
+
+.sponsored-bottom .sign-up-box a :hover {
+  text-decoration: none;
+}
+
+.latest-news .ln a p :hover {
+  color: var(--light-red);
+}
+
+.sponsored-bottom .sign-up-box .sign-up-btn :hover {
+  background-color: #999;
+}
+
 .top-story .card .item-tag a :hover,
 .featured-stories .card .item-tag a :hover,
 .in-the-magazine .card-1 .item-tag a :hover,
@@ -48,8 +81,54 @@ body a :hover {
   width: 100%;
 }
 
-.opinion a :hover {
+.in-the-magazine .card .item-tag-new a :hover {
   text-decoration: none;
+}
+
+.section-us .card-3 ul li .info a :hover,
+.section-world .card-3 ul li .info a :hover,
+.section-business .card-3 ul li .info a :hover,
+.section-science-tech .card-3 ul li .info a :hover,
+.section-culture .card-3 ul li .info a :hover,
+.section-sports .card-3 ul li .info a :hover {
+  color: var(--light-red);
+  text-decoration: none;
+}
+
+.in-the-magazine .card-1 .card-body-1 .features :hover {
+  background-color: #dbdcdd;
+  text-decoration: none;
+}
+
+.page-footer .footer-top .icons-social .s-icon :hover {
+  color: #1da1f2;
+}
+
+.page-header .header-top .right .btn-sign-in :hover,
+.page-header .header-top .right .btn-subscribe :hover {
+  text-decoration: none;
+}
+
+.page-header .header-bottom .navbar .navbar-nav :first-child {
+  border-left: 0;
+}
+
+.pandemic-heros .card .image .item-tag a :hover {
+  background-color: #272727;
+  color: #c2d4d7;
+}
+
+.page-header .header-top .left .weather-box a :hover {
+  text-decoration: none;
+}
+
+.page-footer .footer-links .footer-links-menu .menu .links a :hover {
+  text-decoration: none;
+  color: black;
+}
+
+.page-header .header-bottom .navbar .navbar-nav .nav-item a :hover {
+  color: var(--light-red);
 }
 
 .opinion .list-container .list-opinion .item .info a .link :hover {
@@ -59,10 +138,6 @@ body a :hover {
 .opinion .list-container .list-opinion .item {
   padding: 12px 0 8px 0;
   font-family: "Roboto Condensd", sans-serif;
-}
-
-.debate a :hover {
-  text-decoration: none;
 }
 
 .debate .image-1 {
@@ -120,6 +195,14 @@ body a :hover {
   margin: 14px auto 18px;
 }
 
+.in-the-magazine .card .item-tag-new p {
+  padding: 0 7px;
+  background-color: var(--light-red);
+  color: white;
+  margin-right: 7px;
+  font: bold 16px/26px "Roboto Condensed", sans-serif;
+}
+
 .sponsored .card .image .item-tag p {
   display: block;
   background-color: rgb(232, 239, 250);
@@ -135,143 +218,13 @@ body a :hover {
   font: 20px/20px "Roboto Condensed", sans-serif;
 }
 
-.pandemic-heros a :hover {
-  text-decoration: none;
-}
-
-.latest-news a :hover {
-  text-decoration: none;
-}
-
-.latest-news .ln a p :hover {
-  color: var(--light-red);
-}
-
-.pandemic-heros .card .image .item-tag a {
-  display: block;
-  background-color: #c2d4d7;
-  color: #272727;
-  font: 300 13px/20px "Helvetica Neue", "Helvetica", Arial, sans-serif;
-  padding: 1px 6px 1px;
-  position: absolute;
-  bottom: 5px;
-  text-transform: capitalize;
-}
-
-.pandemic-heros .card .image .item-tag a :hover {
-  background-color: #272727;
-  color: #c2d4d7;
-}
-
-.sponsored-bottom .sign-up-box {
-  max-width: 300px;
-  margin: 0 auto 30px;
-  border: 1px solid #e5e5e5;
-  background-color: #f4f5f6;
-  padding: 20px;
-}
-
-.sponsored-bottom .sign-up-box .title,
-.in-the-magazine .title,
-.editors-pick .title {
-  font: bold 19px/19px "Roboto Condensed", sans-serif;
-  margin-bottom: 15px;
-  text-transform: uppercase;
-}
-
-.sponsored-bottom .sign-up-box .title .icon,
-.in-the-magazine .title .icon,
-.editors-pick .title .icon {
-  flex: none;
-  display: block;
-  width: 29px;
-  height: 28px;
-  background: url('https://g.newsweek.com/www/images/logo-n1.svg') center/contain no-repeat #f72210;
-  margin-right: 10px;
-}
-
-.editors-pick .card .card-body a .card-title {
-  font: 20px/20px "Roboto Condensed", sans-serif;
-}
-
-.sponsored-bottom .sign-up-box a :hover {
-  text-decoration: none;
-}
-
-.sponsored-bottom .sign-up-box .sign-up-btn {
-  display: inline-block;
-  padding: 10px 10px 10px 12px;
-  color: white;
-  font: bold 18px/18px "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
-  margin-bottom: 15px;
-  background-color: #666;
-}
-
-.sponsored-bottom .sign-up-box .sign-up-btn :hover {
-  background-color: #999;
-}
-
-.sponsored-bottom .sign-up-box .sign-up-btn::after {
-  content: "";
-  display: inline-block;
-  width: 8px;
-  height: 14px;
-  margin-left: 10px;
-  background: url('https://g.newsweek.com/www/images/icon-arrow-right.svg') center/contain no-repeat;
-}
-
-.sponsored-bottom .sign-up-box .preferences {
-  color: #333;
-  font: bold 15px/15px "Roboto Condensed", sans-serif;
-}
-
 .in-the-magazine .card-1 .item-tag a {
   background-color: rgba(255, 255, 255, 0.9);
-}
-
-.in-the-magazine .card .item-tag-new a :hover {
-  text-decoration: none;
-}
-
-.in-the-magazine .card-1 .card-body-1 .features {
-  display: block;
-  background-color: #f4f5f6;
-  color: black;
-  font: bold 18px/18px "Roboto Condensed", sans-serif;
-  padding: 10px 10px 10px 12px;
-}
-
-.in-the-magazine .card-1 .card-body-1 .features :hover {
-  background-color:#dbdcdd;
-  text-decoration: none;
-}
-
-.in-the-magazine .card-1 .card-body-1 .features::after {
-  content: "";
-  background: url('https://g.newsweek.com/www/images/icon-arrow-right.svg') center/contain no-repeat black;
-  display: inline-block;
-  width: 8px;
-  height: 14px;
-  margin-left: 10px;
-}
-
-.in-the-magazine .card .item-tag-new p {
-  padding: 0 7px;
-  background-color: var(--light-red);
-  color: white;
-  margin-right: 7px;
-  font: bold 16px/26px "Roboto Condensed", sans-serif;
 }
 
 .in-the-magazine .card .item-tag-new a {
   font: bold 16px/26px "Roboto Condensed", sans-serif;
   color: var(--light-red);
-}
-
-.in-the-magazine .card .card-body-new a {
-  color: black;
-  font: bold 16px/16px "Roboto Condensed", sans-serif;
 }
 
 .in-the-magazine .card-8 .item-tag a {
@@ -288,25 +241,6 @@ body a :hover {
   color: black;
 }
 
-.section-us .section-title,
-.section-world .section-title,
-.section-business .section-title,
-.section-science-tech .section-title,
-.section-culture .section-title,
-.section-sports .section-title {
-  font: 22px/22px "Roboto Condensed", sans-serif;
-  color: var(--light-red);
-}
-
-.section-us .section-title :hover,
-.section-world .section-title :hover,
-.section-business .section-title  :hover,
-.section-science-tech .section-title :hover,
-.section-culture .section-title :hover,
-.section-sports .section-title :hover {
-  text-decoration: none;
-}
-
 .section-us .card .card-body a,
 .section-world .card .card-body a,
 .section-business .card .card-body a,
@@ -315,6 +249,11 @@ body a :hover {
 .section-sports .card .card-body a {
   font: 18px/18px "Roboto Condensed", sans-serif;
   color: black;
+}
+
+.in-the-magazine .card .card-body-new a {
+  color: black;
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
 }
 
 .section-us .card-3 ul li .info a,
@@ -327,14 +266,97 @@ body a :hover {
   color: black;
 }
 
-.section-us .card-3 ul li .info a :hover,
-.section-world .card-3 ul li .info a :hover,
-.section-business .card-3 ul li .info a :hover,
-.section-science-tech .card-3 ul li .info a :hover,
-.section-culture .card-3 ul li .info a :hover,
-.section-sports .card-3 ul li .info a :hover {
-  color:var(--light-red);
-  text-decoration: none;
+.pandemic-heros .card .image .item-tag a {
+  display: block;
+  background-color: #c2d4d7;
+  color: #272727;
+  font: 300 13px/20px "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  padding: 1px 6px 1px;
+  position: absolute;
+  bottom: 5px;
+  text-transform: capitalize;
+}
+
+.sponsored-bottom .sign-up-box {
+  max-width: 300px;
+  margin: 0 auto 30px;
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+  padding: 20px;
+}
+
+.editors-pick .title,
+.in-the-magazine .title,
+.sponsored-bottom .sign-up-box .title {
+  font: bold 19px/19px "Roboto Condensed", sans-serif;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.in-the-magazine .title .icon,
+.editors-pick .title .icon,
+.sponsored-bottom .sign-up-box .title .icon {
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url('https://g.newsweek.com/www/images/logo-n1.svg') center/contain no-repeat #f72210;
+  margin-right: 10px;
+}
+
+.editors-pick .card .card-body a .card-title {
+  font: 20px/20px "Roboto Condensed", sans-serif;
+}
+
+.sponsored-bottom .sign-up-box .sign-up-btn {
+  display: inline-block;
+  padding: 10px 10px 10px 12px;
+  color: white;
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  background-color: #666;
+}
+
+.sponsored-bottom .sign-up-box .sign-up-btn::after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  margin-left: 10px;
+  background: url('https://g.newsweek.com/www/images/icon-arrow-right.svg') center/contain no-repeat;
+}
+
+.sponsored-bottom .sign-up-box .preferences {
+  color: #333;
+  font: bold 15px/15px "Roboto Condensed", sans-serif;
+}
+
+.in-the-magazine .card-1 .card-body-1 .features {
+  display: block;
+  background-color: #f4f5f6;
+  color: black;
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+  padding: 10px 10px 10px 12px;
+}
+
+.in-the-magazine .card-1 .card-body-1 .features::after {
+  content: "";
+  background: url('https://g.newsweek.com/www/images/icon-arrow-right.svg') center/contain no-repeat black;
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  margin-left: 10px;
+}
+
+.section-us .section-title,
+.section-world .section-title,
+.section-business .section-title,
+.section-science-tech .section-title,
+.section-culture .section-title,
+.section-sports .section-title {
+  font: 22px/22px "Roboto Condensed", sans-serif;
+  color: var(--light-red);
 }
 
 .section-subscribe .section-title {
@@ -405,8 +427,8 @@ body a :hover {
   background: url('https://g.newsweek.com/www/images/icon-arrow-right.svg') center/contain no-repeat;
 }
 
-.section-subscribe .blank-space,
-.blank-space {
+.blank-space,
+.section-subscribe .blank-space {
   height: 18px;
   background-color: #f4f5f7;
   border-top: 1px solid #e2e2e2;
@@ -430,10 +452,6 @@ body a :hover {
   color: #666;
 }
 
-.page-footer .footer-top .icons-social .s-icon :hover {
-  color: #1da1f2;
-}
-
 .page-footer .footer-links {
   font-size: 14px;
   line-height: 15px;
@@ -443,13 +461,12 @@ body a :hover {
   color: #666;
 }
 
-.page-footer .footer-links .footer-links-menu .menu .links a {
-  color: #666;
+.page-header .header-top .right .generic-menu a {
+  color: #fb9a94;
 }
 
-.page-footer .footer-links .footer-links-menu .menu .links a :hover {
-  text-decoration: none;
-  color: black;
+.page-footer .footer-links .footer-links-menu .menu .links a {
+  color: #666;
 }
 
 .page-header .header-top {
@@ -462,14 +479,18 @@ body a :hover {
   font: bold 15px/34px "Roboto Condensed", sans-serif;
 }
 
+.page-header .header-top .right svg {
+  fill: var(--light-red);
+  width: 8px;
+  height: auto;
+  padding-bottom: 5px;
+  margin-left: 10px;
+}
+
 .page-header .header-top .left .logo-small .brand svg {
   height: 20px;
   width: 132px;
   fill: white;
-}
-
-.page-header .header-top .left .weather-box a :hover {
-  text-decoration: none; 
 }
 
 .page-header .header-top .left .weather-box .anchor-weather .weather-indicator {
@@ -506,28 +527,11 @@ body a :hover {
   padding: 4px 10px 1px 10px;
 }
 
-.page-header .header-top .right .btn-sign-in :hover,
-.page-header .header-top .right .btn-subscribe :hover {
-  text-decoration: none;
-}
-
-.page-header .header-top .right svg {
-  fill: var(--light-red);
-  width: 8px;
-  height: auto;
-  padding-bottom: 5px;
-  margin-left: 10px;
-}
-
 .page-header .header-top .right .generic-menu {
   cursor: pointer;
   font-size: 26px;
   text-align: center;
   vertical-align: top;
-}
-
-.page-header .header-top .right .generic-menu a {
-  color: #fb9a94;
 }
 
 .page-header .header-bottom {
@@ -552,17 +556,9 @@ body a :hover {
   text-align: center;
 }
 
-.page-header .header-bottom .navbar .navbar-nav :first-child {
-  border-left: 0;
-}
-
 .page-header .header-bottom .navbar .navbar-nav .nav-item a {
   color: black;
   padding: 0;
-}
-
-.page-header .header-bottom .navbar .navbar-nav .nav-item a :hover {
-  color: var(--light-red);
 }
 
 .page-header .header-bottom .navbar .form-inline .form-control {
