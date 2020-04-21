@@ -13,7 +13,7 @@ body p {
   color: black;
 }
 
-body a:hover {
+body a :hover {
   text-decoration: underline;
   text-decoration-color: var(--light-red);
 }
@@ -32,10 +32,10 @@ body a:hover {
   bottom: 5px;
 }
 
-.top-story .card .item-tag a:hover,
-.featured-stories .card .item-tag a:hover,
-.in-the-magazine .card-1 .item-tag a:hover,
-.editors-pick .card .item-tag a:hover {
+.top-story .card .item-tag a :hover,
+.featured-stories .card .item-tag a :hover,
+.in-the-magazine .card-1 .item-tag a :hover,
+.editors-pick .card .item-tag a :hover {
   text-decoration: none;
 }
 
@@ -48,11 +48,11 @@ body a:hover {
   width: 100%;
 }
 
-.opinion a:hover {
+.opinion a :hover {
   text-decoration: none;
 }
 
-.opinion .list-container .list-opinion .item .info a .link:hover {
+.opinion .list-container .list-opinion .item .info a .link :hover {
   color: var(--light-red);
 }
 
@@ -61,7 +61,7 @@ body a:hover {
   font-family: "Roboto Condensd", sans-serif;
 }
 
-.debate a:hover {
+.debate a :hover {
   text-decoration: none;
 }
 
@@ -135,15 +135,15 @@ body a:hover {
   font: 20px/20px "Roboto Condensed", sans-serif;
 }
 
-.pandemic-heros a:hover {
+.pandemic-heros a :hover {
   text-decoration: none;
 }
 
-.latest-news a:hover {
+.latest-news a :hover {
   text-decoration: none;
 }
 
-.latest-news .ln a p:hover {
+.latest-news .ln a p :hover {
   color: var(--light-red);
 }
 
@@ -158,7 +158,7 @@ body a:hover {
   text-transform: capitalize;
 }
 
-.pandemic-heros .card .image .item-tag a:hover {
+.pandemic-heros .card .image .item-tag a :hover {
   background-color: #272727;
   color: #c2d4d7;
 }
@@ -194,7 +194,7 @@ body a:hover {
   font: 20px/20px "Roboto Condensed", sans-serif;
 }
 
-.sponsored-bottom .sign-up-box a:hover {
+.sponsored-bottom .sign-up-box a :hover {
   text-decoration: none;
 }
 
@@ -208,7 +208,7 @@ body a:hover {
   background-color: #666;
 }
 
-.sponsored-bottom .sign-up-box .sign-up-btn:hover {
+.sponsored-bottom .sign-up-box .sign-up-btn :hover {
   background-color: #999;
 }
 
@@ -227,10 +227,10 @@ body a:hover {
 }
 
 .in-the-magazine .card-1 .item-tag a {
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
-.in-the-magazine .card .item-tag-new a:hover{
+.in-the-magazine .card .item-tag-new a :hover {
   text-decoration: none;
 }
 
@@ -242,7 +242,7 @@ body a:hover {
   padding: 10px 10px 10px 12px;
 }
 
-.in-the-magazine .card-1 .card-body-1 .features:hover{
+.in-the-magazine .card-1 .card-body-1 .features :hover {
   background-color:#dbdcdd;
   text-decoration: none;
 }
@@ -298,12 +298,12 @@ body a:hover {
   color: var(--light-red);
 }
 
-.section-us .section-title:hover,
-.section-world .section-title:hover,
-.section-business .section-title:hover,
-.section-science-tech .section-title:hover,
-.section-culture .section-title:hover,
-.section-sports .section-title:hover{
+.section-us .section-title :hover,
+.section-world .section-title :hover,
+.section-business .section-title  :hover,
+.section-science-tech .section-title :hover,
+.section-culture .section-title :hover,
+.section-sports .section-title :hover {
   text-decoration: none;
 }
 
@@ -326,12 +326,13 @@ body a:hover {
   font: bold 17px/21px "Roboto Condensed", sans-serif;
   color: black;
 }
-.section-us .card-3 ul li .info a:hover,
-.section-world .card-3 ul li .info a:hover,
-.section-business .card-3 ul li .info a:hover,
-.section-science-tech .card-3 ul li .info a:hover,
-.section-culture .card-3 ul li .info a:hover,
-.section-sports .card-3 ul li .info a:hover{
+
+.section-us .card-3 ul li .info a :hover,
+.section-world .card-3 ul li .info a :hover,
+.section-business .card-3 ul li .info a :hover,
+.section-science-tech .card-3 ul li .info a :hover,
+.section-culture .card-3 ul li .info a :hover,
+.section-sports .card-3 ul li .info a :hover {
   color:var(--light-red);
   text-decoration: none;
 }
@@ -429,8 +430,8 @@ body a:hover {
   color: #666;
 }
 
-.page-footer .footer-top .icons-social .s-icon:hover {
-  color: #1DA1F2;
+.page-footer .footer-top .icons-social .s-icon :hover {
+  color: #1da1f2;
 }
 
 .page-footer .footer-links {
@@ -438,15 +439,15 @@ body a:hover {
   line-height: 15px;
 }
 
-.page-footer .footer-links .footer-links-menu label{
-  color:#666;
+.page-footer .footer-links .footer-links-menu label {
+  color: #666;
 }
 
-.page-footer .footer-links .footer-links-menu .menu .links a{
-  color: #666;    
+.page-footer .footer-links .footer-links-menu .menu .links a {
+  color: #666;
 }
 
-.page-footer .footer-links .footer-links-menu .menu .links a:hover{
+.page-footer .footer-links .footer-links-menu .menu .links a :hover {
   text-decoration: none;
   color: black;
 }
@@ -467,8 +468,8 @@ body a:hover {
   fill: white;
 }
 
-.page-header .header-top .left .weather-box a:hover {
-  text-decoration: none;
+.page-header .header-top .left .weather-box a :hover {
+  text-decoration: none; 
 }
 
 .page-header .header-top .left .weather-box .anchor-weather .weather-indicator {
@@ -505,8 +506,8 @@ body a:hover {
   padding: 4px 10px 1px 10px;
 }
 
-.page-header .header-top .right .btn-sign-in:hover,
-.page-header .header-top .right .btn-subscribe:hover {
+.page-header .header-top .right .btn-sign-in :hover,
+.page-header .header-top .right .btn-subscribe :hover {
   text-decoration: none;
 }
 
@@ -530,7 +531,7 @@ body a:hover {
 }
 
 .page-header .header-bottom {
-  padding: 15px 0px 15px 0 !important;
+  padding: 15px 0 !important;
   border-bottom: 2px solid #f4f5f6;
   position: relative;
 }
@@ -560,7 +561,7 @@ body a:hover {
   padding: 0;
 }
 
-.page-header .header-bottom .navbar .navbar-nav .nav-item a:hover {
+.page-header .header-bottom .navbar .navbar-nav .nav-item a :hover {
   color: var(--light-red);
 }
 
@@ -569,7 +570,7 @@ body a:hover {
   background-size: 20px 20px;
 }
 
-@media only screen and (max-width: 991px){
+@media only screen and (max-width: 991px) {
   .page-header {
     position: fixed;
     top: 0;
@@ -577,12 +578,13 @@ body a:hover {
     right: 0;
     z-index: 10;
   }
+
   .main {
     position: relative;
     top: 55px;
   }
 }
-    
+
 @media only screen and (min-width: 992px) {
   .page-header .header-top {
     background-color: var(--light-red);
@@ -617,13 +619,13 @@ body a:hover {
     top: 20px;
     left: 32%;
   }
-  
+
   .page-header .logo-large .brand svg {
     fill: white;
     height: 60px;
     width: 396px;
   }
-  
+
   .section-subscribe .newsletter .card .images {
     width: 70% !important;
     height: 300px !important;
@@ -661,20 +663,20 @@ body a:hover {
     height: 196px;
     width: 191px;
   }
-  
+
   .section-subscribe .newsletter .card .images img {
     height: 100%;
     width: 100%;
   }
-  
+
   .blank-space {
     height: 1px;
   }
-  
+
   .page-footer .footer-links .menu li {
     border-right: 1px solid #d9d9d9;
   }
-  
+
   .page-footer .footer-links .menu li:last-child {
     border-right: 0;
   }
@@ -692,12 +694,12 @@ body a:hover {
     padding-right: 12px;
     font-size: 14px;
   }
-  
+
   .page-header .header-top .right .btn-subscribe {
     font-size: 14px;
     padding-right: 10px;
   }
-  
+
   .page-header .header-top .right svg {
     display: inline-block;
     width: 8px;
